@@ -100,6 +100,7 @@ class ViewController: UIViewController {
     // 4) Add MessageBox function using AlertView
     func MsgBox(_ message:String)
     {
+        //Add Below Code from "Code for Steps.txt". Fulfill Each Comment With Code
         //Create Alert
         let alert = UIAlertView()
         alert.title = "Alert"
@@ -173,7 +174,7 @@ class ViewController: UIViewController {
         ScrollView.setContentOffset(CGPoint.zero, animated: true)
     }
     
-     // 12) Modify existing viewDidLoad function. Default Function to load when view is shown
+    // 12) Modify existing viewDidLoad function. Default Function to load when view is shown
     override func viewDidLoad() {
         super.viewDidLoad()
         
